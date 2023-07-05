@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.vermelha {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+body {
+  display: flex;
+  border: solid purple;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 80vh;
+  /* 
+  flex-start -> vai alinhar
+  os nossos elementos no ínicio do eixo x.
+  
+  center -> vai alinhar os nosso elementos
+  no meio do eixo x.
+  
+  flex-end -> vai alinhar os nossos elementos
+  ao final do eixo x.
+  */
+}
+.verde {
+  width: 30%;
+  height: 100px;
+  background-color: green;
+}
+.azul {
+  width: 35vw;
+  height: 22vh;
+  background-color: blue;
+}
